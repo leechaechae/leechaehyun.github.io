@@ -1,0 +1,251 @@
+@media screen and (max-width: 1279px) {
+  .banner-txt {
+    font-size: 7rem;
+    line-height: 100px;
+  }
+  .flex-box {
+    flex-direction: column;
+  }
+  .main-03 {
+    padding: 20px;
+  }
+  .work-title {
+    font-size: 2.5rem;
+  }
+  .contact-txt01 {
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+  .contact-email {
+    font-size: 4rem;
+  }
+  .contact-txt02 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .banner-txt {
+    font-size: 5rem;
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 70px;
+  }
+  header .header-inner {
+    padding: 0 20px;
+  }
+  header li {
+    font-size: 0.9375rem;
+    margin-right: 20px;
+  }
+
+  /* section01 */
+  .main-01 {
+    display: block;
+    padding: 20px;
+  }
+  .banner {
+    height: 147px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+  }
+  .banner-box {
+    display: flex;
+  }
+  .banner-txt {
+    font-size: 2.5rem;
+    line-height: 48px;
+  }
+  .margin-left {
+    margin-left: 33px;
+  }
+  .scroll {
+    position: absolute;
+    right: 0;
+    left: 50%;
+    bottom: 50px;
+    width: 20px;
+    height: 32px;
+  }
+
+  /* section02 */
+  .main-02 {
+    padding: 30px 20px;
+  }
+  .flex-box {
+    flex-direction: column;
+  }
+  .about-left {
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+  .about-bg {
+    width: 240px;
+    height: 240px;
+  }
+  .about-text {
+    margin: 30px 0 70px 0;
+    font-size: 1rem;
+    line-height: 28px;
+  }
+
+  /* section03 */
+  .main-03 {
+    padding: 30px 20px;
+  }
+  .work-list {
+    margin-top: 0;
+  }
+  .work-link {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px 5px;
+  }
+  .work-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 34px;
+  }
+  .work-desc {
+    display: none;
+  }
+  .work-desc.mo {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 0.8rem;
+    color: var(--color-gray02);
+    line-height: 18px;
+    text-align: left;
+  }
+  .work-desc span {
+    font-size: 0.8rem;
+    color: var(--color-gray02);
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+  .work-item img {
+    display: none;
+  }
+
+  /* section04 */
+  .main-04 {
+    padding: 130px 20px 40px 20px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/common/bg-contact-mo.png);
+  }
+  .contact-txt01 {
+    margin-top: 50px;
+    font-size: 1.25rem;
+    line-height: 20px;
+  }
+  .contact-email {
+    margin: 10px 0 80px 0;
+    font-size: 1.75rem;
+    line-height: 30px;
+  }
+  .contact-txt02 {
+    margin-bottom: 50px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 16px;
+  }
+  .copyright {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    line-height: 18px;
+  }
+
+  /* 더보기 버튼 */
+  .add-link {
+    font-size: 1rem;
+    line-height: 18px;
+  }
+  .add-link::after {
+    content: none;
+  }
+  .add-link .icon-arrow {
+    margin-left: 4px;
+    width: 15px;
+    height: 15px;
+  }
+
+  /* project */
+  .btn-back {
+    display: block;
+  }
+  .project header {
+    height: 60px;
+    padding: 0 20px;
+  }
+  .project header h1 {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .project .section-01 {
+    padding-top: 60px;
+  }
+  .project-banner {
+    height: 100%;
+  }
+  .project-banner img {
+    height: auto;
+    width: 100%;
+  }
+  .project-content {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .inner {
+    max-width: 100%;
+  }
+  .project-title {
+    font-size: 1.5rem;
+  }
+  .tech-box {
+    margin-top: 8px;
+  }
+  .tech-badge {
+    margin-right: 8px;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+    border-radius: 6px;
+  }
+  .project-desc p {
+    font-size: 1rem;
+  }
+  .project-flex {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .project-flex img {
+    height: auto;
+  }
+  .project-block {
+    margin-top: 30px;
+  }
+  .detail-content {
+    padding-top: 40px;
+    margin: 50px 0px;
+  }
+  .detail-flex {
+    flex-direction: column;
+  }
+  .detail-flex img + img {
+    margin-top: 20px;
+  }
+  .detail-content img + img {
+    margin-top: 10px;
+  }
+}

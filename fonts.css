@@ -1,0 +1,89 @@
+* {
+  font-family: "Pretendard", sans-serif;
+}
+
+/* AbrilFatface */
+@font-face {
+  font-family: "AbrilFatface";
+  font-style: normal;
+  font-weight: 500;
+  src: local("AbrilFatface"), local("AbrilFatface"),
+    url(../fonts/AbrilFatface-Regular.ttf);
+}
+/* AbrilFatface */
+
+/* Montserrat */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Montserrat"), local("Montserrat"),
+    url(../fonts/Montserrat-Thin.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat"), local("Montserrat"),
+    url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Montserrat"), local("Montserrat"),
+    url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Montserrat"), local("Montserrat"),
+    url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Montserrat"), local("Montserrat"),
+    url(../fonts/Montserrat-Bold.ttf);
+}
+/* Montserrat */
+
+/* Pretendard */
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Pretendard"), local("Pretendard"),
+    url(../fonts/Pretendard-Thin.woff);
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pretendard"), local("Pretendard"),
+    url(../fonts/Pretendard-Regular.woff);
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Pretendard"), local("Pretendard"),
+    url(../fonts/Pretendard-Medium.woff);
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Pretendard"), local("Pretendard"),
+    url(../fonts/Pretendard-SemiBold.woff);
+}
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Pretendard"), local("Pretendard"),
+    url(../fonts/Pretendard-Bold.woff);
+}
+/* Pretendard */
